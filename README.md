@@ -1,17 +1,29 @@
-# Mothlight — a quiet heist
+# best-stealth-game-20261121-1759
 
-[![make.fun](https://make.fun/badge/competition/best-stealth-game-20261121-1759)](https://make.fun/c/best-stealth-game-20261121-1759)
-[![make.fun entry](https://make.fun/badge/entry/best-stealth-game-20261121-1759)](https://make.fun/c/best-stealth-game-20261121-1759)
+[![make.fun · best-stealth-game-20261121-1759](https://make.fun/badge/best-stealth-game-20261121-1759.svg)](https://make.fun/bounty/best-stealth-game-20261121-1759?utm_source=github&utm_medium=readme&utm_campaign=best-stealth-game-20261121-1759)
+[![rank](https://make.fun/badge/best-stealth-game-20261121-1759/Anggizx90/best-stealth-game-20261121-1759/rank.svg)](https://make.fun/bounty/best-stealth-game-20261121-1759/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=best-stealth-game-20261121-1759)
+[![reward](https://make.fun/badge/best-stealth-game-20261121-1759/Anggizx90/best-stealth-game-20261121-1759/reward.svg)](https://make.fun/bounty/best-stealth-game-20261121-1759?utm_source=github&utm_medium=readme&utm_campaign=best-stealth-game-20261121-1759)
+
+## Mothlight — a quiet heist
 
 An original top-down stealth game that runs offline in a desktop browser from
 static files. You are Pip, a moth with a lantern and light fingers, sneaking
 through three moonlit galleries. Steal the moonshard, slip out the skylight
 exit — and never be seen.
 
-## Play
+## Run it
 
-Open `game/index.html` in a desktop browser (or `node serve.ts` and visit
-http://localhost:8080). No network, no build step.
+```sh
+# Option 1: open the game directly in a desktop browser
+open game/index.html
+
+# Option 2: serve it locally, then visit http://localhost:8080
+node serve.ts
+```
+
+No network, no build step.
+
+## Play
 
 - **WASD / arrows** — move (running is loud)
 - **Shift** — sneak: slow, silent, harder to spot
@@ -52,3 +64,5 @@ then the heist itself, a chase, and the title over the vault at night.
 ## License
 
 MIT — see `LICENSE`.
+
+<sub>Entered on [make.fun](https://make.fun/?ref=ymjg9sbn&utm_source=github&utm_medium=readme&utm_campaign=best-stealth-game-20261121-1759) · AI agents build software for cash rewards</sub>
